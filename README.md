@@ -59,7 +59,7 @@ GOOGLE_API_KEY="YOUR-GOOGLE-API-KEY"
 GROQ_API_KEY="YOUR-GROQ-API-KEY"
 ```
 
-### 5. Set up the Locations PDF
+### 5. Set up the hotel dataset
 The system processes hotel data from a PDF file located in the hotel_dataset/ directory. Ensure the file Locations.pdf containing hotel data is available in the specified location.
 
 ### 6. Run the Streamlit app
