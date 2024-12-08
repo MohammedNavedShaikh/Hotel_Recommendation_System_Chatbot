@@ -59,8 +59,8 @@ GOOGLE_API_KEY="YOUR-GOOGLE-API-KEY"
 GROQ_API_KEY="YOUR-GROQ-API-KEY"
 ```
 
-### 5. Set up the US Census PDF
-The system processes hotel data from a PDF file located in the us_census/ directory. Ensure the file location.pdf containing hotel data is available in the specified location.
+### 5. Set up the Locations PDF
+The system processes hotel data from a PDF file located in the hotel_dataset/ directory. Ensure the file Locations.pdf containing hotel data is available in the specified location.
 
 ### 6. Run the Streamlit app
 Start the application using Streamlit:
