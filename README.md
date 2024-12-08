@@ -2,9 +2,9 @@
 
 ## Overview
 
-The **Hotel Recommendation System Chatbot** is a Streamlit-based web application that utilizes **LangChain**, **GroQ**, and **Google Generative AI** to provide hotel recommendations from a dataset of hotels in India. The chatbot answers questions based on the content extracted from PDF documents containing hotel information. 
+The **Hotel Recommendation System Chatbot** is a Streamlit-based web application that combines **Artificial Intelligence and Machine Learning** technologies, such as **LangChain**, **GroQ**, and **Google Generative AI**, to provide personalized hotel recommendations from a dataset of hotels in India. 
 
-It uses **vector embeddings** to generate a similarity search mechanism to match the user's query with relevant documents, providing context-based recommendations. The system leverages **FAISS** for vector-based retrieval, **GoogleGenerativeAIEmbeddings** for document embeddings, and **GroQ** for natural language understanding.
+The chatbot answers user queries by leveraging **Retrieval-Augmented Generation (RAG)**, which enables it to retrieve relevant contextual data from a **vector database** and use a **Large Language Model (LLM)** for natural language understanding and response generation.
 
 ## Technologies Used
 
@@ -76,11 +76,6 @@ streamlit run app.py
 - **Response**: The chatbot provides the most accurate response based on the context and the user's query. The system displays both the final answer and the relevant chunks from the documents that were used to generate the answer.
 - **Document Similarity Search**: Users can view the most similar documents that contributed to the answer using the "Document Similarity Search" expander.
 
-## Example Use Cases
-
-- **Query**: "Hotels in Pune with a swimming pool"
-- **Response**: The chatbot will return a list of hotels located in Pune that have swimming pools, based on the document context.
-
 ## Requirements
 ```bash
 faiss-cpu
@@ -95,6 +90,14 @@ python-dotenv
 pypdf
 google-cloud-aiplatform>=1.38
 ```
+
+## Example Use Cases
+
+- **Query**: "Recommend a hotel in Pune with swimming pool"
+- **Response**: The chatbot will return a list of hotels located in Pune that have swimming pools, based on the document context.
+
+![Hotel_Recommendation_System_Chatbot](https://github.com/user-attachments/assets/5357373e-8ef1-4591-92ac-37f71427f1d2)
+
 
 ## Support
 If you encounter any issues while setting up or using the Hotel Recommendation System Chatbot, feel free to reach out for assistance.
